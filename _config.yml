@@ -1,5 +1,9 @@
 plugins:
   - jekyll-relative-links
+exclude:
+  - .local
+  - .tmp-resume-tools
+  - xpeng_logo.htm
 relative_links:
   enabled: true
   collections: true

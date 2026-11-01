@@ -1,0 +1,71 @@
+.resume-intro{padding-bottom:40px}.resume-jump{display:flex;flex-wrap:wrap;gap:28px;margin-top:40px;border-top:1px solid var(--line);padding-top:24px}.resume-jump a{font-size:12px;color:var(--muted)}.resume-jump a:hover,.inline-link:hover,.context-link:hover{color:var(--red)}.resume-layout{max-width:1080px;margin:0 auto;padding:20px 5.5% 60px}.resume-section{margin-bottom:65px;scroll-margin-top:110px}.resume-card{display:grid;grid-template-columns:260px 1fr;gap:38px;background:linear-gradient(130deg,#201f23,#19191c);border:1px solid var(--line);border-radius:12px;padding:34px;margin-bottom:25px;box-shadow:0 16px 35px #0002;scroll-margin-top:110px}.resume-card-aside{border-radius:7px;background:#ffffff04;padding:23px;align-self:start}.company-mark{height:70px;margin-bottom:20px;display:flex;align-items:center}.company-mark img{width:64px;height:64px;object-fit:contain;border-radius:6px;background:white}.resume-date{color:var(--red);font-size:12px;font-weight:700;letter-spacing:.2px;margin-bottom:10px}.resume-card h3{font-size:19px;line-height:1.3;letter-spacing:-.5px}.resume-organization{color:var(--muted);font-size:12px;margin-top:9px;line-height:1.5}.resume-card-main>p{font-size:14px;color:#d0cdd3}.resume-card-main>ul{padding-left:18px;font-size:13px;color:var(--muted);margin:18px 0 22px}.resume-card-main>ul li+li{margin-top:10px}.related-reading{border-top:1px solid var(--line);padding-top:22px;margin-top:25px}.related-reading .eyebrow{font-size:12px;margin-bottom:12px}.reading-link{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:11px 0;border-bottom:1px solid #ffffff0a;font-size:12px}.reading-link:hover{color:var(--red)}.reading-link small,.reading-source small{display:block;font-size:12px;letter-spacing:1.4px;color:var(--muted);margin-bottom:3px}.reading-link>span:nth-child(2){font-size:18px;color:var(--red)}.context-link{display:inline-block;color:var(--muted);font-size:12px;margin-top:16px}.inline-link{font-size:12px;color:var(--muted)}.education-note{font-size:12px;margin-top:13px;color:#d6c3a3}.education-card{align-items:center}.education-card .resume-date{color:#b4b0dc}.education-card .resume-card-aside{align-self:stretch}.resume-card-main .eyebrow{font-size:12px;color:var(--muted);margin-bottom:16px}.course-list{display:flex;flex-wrap:wrap;gap:9px}.course-list span{background:#ffffff05;border:1px solid #ffffff0b;padding:8px 12px;border-radius:5px;font-size:12px;color:#c8c5cd}.skills-panel{background:var(--panel);padding:34px;border:1px solid var(--line);border-radius:12px;display:grid;gap:30px}.skills-panel h3{font-size:20px;margin-bottom:16px}.certificates{margin:0;padding-left:18px;color:var(--muted);font-size:13px}.certificates li+li{margin-top:8px}.reading-intro{max-width:760px;color:var(--muted);font-size:13px;margin-bottom:35px}.knowledge-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}.knowledge-card{display:flex;flex-direction:column;padding:32px;border:1px solid var(--line);border-radius:10px;background:linear-gradient(140deg,#211f25,#19191c);scroll-margin-top:110px}.knowledge-card-top{display:flex;justify-content:space-between;gap:15px;font-size:12px;letter-spacing:1px;color:var(--muted);margin-bottom:26px}.knowledge-card h2{font-size:29px;line-height:1.2;letter-spacing:-.9px}.knowledge-card>p{font-size:13px;color:var(--muted);margin-top:19px}.knowledge-card .tags{margin-top:23px}.knowledge-card .article-context{font-size:12px;border-left:2px solid #ef414780;padding-left:13px;margin-bottom:25px}.reading-source{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-top:auto;padding-top:22px;border-top:1px solid var(--line);font-size:12px}.reading-source:hover{color:var(--red)}.reading-source>span:nth-child(2){font-size:22px;color:var(--red)}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}.site-header nav{gap:22px}.site-header>.button[aria-current]{border-color:var(--red);color:var(--red)}
+@media(max-width:1050px){.site-header nav{gap:15px}.site-header{gap:18px}.site-header nav a{font-size:12px}.resume-card{grid-template-columns:225px 1fr;gap:25px;padding:27px}.resume-card-aside{padding:19px}.knowledge-card{padding:26px}}
+@media(max-width:760px){.resume-card{grid-template-columns:1fr;gap:25px;padding:25px}.resume-card-aside{padding:20px}.company-mark{float:right;margin:0 0 12px 15px;height:58px}.company-mark img{height:56px;width:56px}.resume-card-aside:after{content:'';display:block;clear:both}.knowledge-grid{grid-template-columns:1fr}.resume-layout{padding:10px 6% 25px}.resume-section{margin-bottom:45px}.resume-section .section-heading{align-items:start;flex-direction:column;gap:15px}.resume-jump{gap:22px}.skills-panel{padding:25px}.education-card .resume-card-aside{align-self:auto}}
+@media(max-width:650px){.site-header nav a{font-size:14px}.site-header nav{gap:0}.resume-card h3{font-size:20px}.resume-card-main>p{font-size:13px}.knowledge-card h2{font-size:28px}.knowledge-card-top{font-size:12px}.resume-card,.knowledge-card{border-radius:8px}}
+
+.header-pdf-actions{display:flex;align-items:center;gap:8px;flex-shrink:0;margin-left:auto}
+.header-pdf-actions .button{white-space:nowrap;font-size:12px;padding:8px 12px}
+.resume-card-main>p,.resume-card-main>ul,.resume-card-main .reading-link,.resume-card-main .context-link,.reading-source,.knowledge-card>.article-context{font-family:'DM Sans',Arial,sans-serif;font-size:14px;font-weight:400;line-height:1.7}
+.reading-link small,.reading-source small{font-family:inherit;font-size:12px;font-weight:400;line-height:1.7}
+@media(max-width:1250px){
+  .site-header{height:74px;padding:0 4%;gap:16px}
+  .site-header nav{display:none;position:absolute;left:0;right:0;top:74px;padding:20px 4%;background:#19181b;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:0}
+  .site-header nav.open{display:flex}
+  .site-header nav a{font-size:14px;padding:12px 0}
+  .site-header nav a[aria-current]:after{bottom:6px}
+  .menu-toggle{display:block;background:none;border:0;font-size:12px;padding:8px 0;white-space:nowrap}
+}
+@media(max-width:450px){
+  .site-header{gap:10px}
+  .header-pdf-actions{gap:6px}
+  .header-pdf-actions .button{font-size:12px;padding:8px}
+}
+
+/* Use a readable 12–16px scale for interface and body text. */
+body{font-size:14px}
+.eyebrow{letter-spacing:1.5px}
+.text-button>span,.scroll-cue>span{font-size:16px}
+.header-pdf-actions .button{font-size:12px}
+.resume-card-main>p,.resume-card-main>ul,.resume-card-main .reading-link{font-size:14px;line-height:1.6}
+.related-reading{padding-top:12px;margin-top:16px}
+.related-reading .eyebrow{margin-bottom:6px}
+.reading-links{list-style:none;margin:0;padding:0}
+.reading-links li{margin:4px 0;line-height:1.6}
+.reading-links .reading-link{display:inline;padding:0;border:0;color:var(--text);text-decoration:underline;text-decoration-color:#ffffff40;text-underline-offset:3px}
+.reading-links .reading-link:hover{color:var(--red);text-decoration-color:currentColor}
+.reading-publisher{font-size:12px;color:var(--muted);font-weight:400}
+.resume-card-main .context-link{font-size:12px;margin-top:8px}
+.knowledge-intro{padding-top:42px;padding-bottom:30px}
+.knowledge-intro h1{font-size:clamp(36px,4vw,52px);letter-spacing:-2px}
+.knowledge-intro .eyebrow{margin-bottom:12px}
+.knowledge-intro>p:not(.eyebrow){font-size:16px;color:var(--muted);max-width:680px;margin-top:16px}
+.knowledge-intro .actions{margin-top:18px}
+.reading-room{padding-top:24px;padding-bottom:45px}
+.reading-intro{font-size:14px;margin-bottom:15px;max-width:900px}
+.knowledge-list{max-width:1050px}
+.knowledge-entry{padding:15px 0;border-bottom:1px solid var(--line);scroll-margin-top:125px}
+.knowledge-entry:first-child{border-top:1px solid var(--line)}
+.knowledge-entry-title{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 18px}
+.knowledge-entry-title>a{font-size:16px;font-weight:500;text-decoration:underline;text-decoration-color:#ffffff40;text-underline-offset:3px}
+.knowledge-entry-title>a:hover{color:var(--red);text-decoration-color:currentColor}
+.knowledge-entry>p{font-size:14px;line-height:1.6;color:var(--muted);margin:5px 0 0;max-width:950px}
+.knowledge-entry .context-link{font-size:12px;margin-top:5px;line-height:1.6}
+.resume-card .experience-role{color:var(--text);font-weight:700}
+.experience-role .role-qualifier{color:var(--muted);font-weight:400}
+#experience .resume-organization{color:var(--text);font-size:16px;font-weight:600;margin-top:10px}
+#experience .resume-date{color:var(--muted);font-size:12px;font-weight:400;margin:12px 0 0;letter-spacing:0}
+.resume-card-main>.experience-summary{color:var(--text);font-size:14px;font-weight:400;line-height:1.6;margin-bottom:16px}
+.site-header nav a{font-size:16px;font-weight:600;color:var(--text)}
+.site-header nav a:hover,.site-header nav a[aria-current]{color:var(--red)}
+.header-pdf-actions .button,.site-header .menu-toggle{font-size:16px}
+@media(max-width:450px){
+  .site-header{height:auto;min-height:74px;flex-wrap:wrap;padding-top:12px;padding-bottom:12px;row-gap:8px}
+  .site-header nav{top:100%}
+  .site-header .menu-toggle{margin-left:auto}
+  .header-pdf-actions{order:3;width:100%;justify-content:flex-end}
+}
+
+.footer-social-links{display:flex;align-items:center;flex-wrap:wrap;gap:12px 22px;margin-left:auto}
+.footer-social-links a{font-size:14px;color:var(--text)}
+.footer-social-links a:hover{color:var(--red)}
+@media(max-width:650px){.footer-social-links{margin-left:0;width:100%}}
