@@ -13,7 +13,10 @@ All page HTML lives in `frontend/src/pages/`:
 - `index.html`: home, project filters, and resume
 - `coding.html`: Twitter Text Analysis
 - `bi.html`: Colombia Conflict Analysis, with links to the uploaded PDF story, Tableau workbook, and ACLED
-- `creative.html`: space for future writing, fiction, and AI short films
+- `creative.html`: Fictional work and AI short films
+- `rog-ri.html`: complete mini novel
+- `on-the-farewelled-land.html`: novel home and contents
+- `otfl-intro.html`, `otfl-chapter-1.html`: individual novel installments
 - `about.html`: About Me, including experience cards, education, and skills
 - `resume.html`: compatibility entry for the About Me content
 - `knowledge.html`: a compact list of public readings connected to experience and projects
@@ -34,7 +37,7 @@ All page HTML lives in `frontend/src/pages/`:
 │       ├── components/
 │       │   └── portfolio.js    # Reusable project cards and sections
 │       ├── pages/
-│       │   ├── *.html          # All seven page HTML files
+│       │   ├── *.html          # All page HTML files
 │       │   ├── portfolio.js    # Home, project collections, and creative work
 │       │   └── resume.js       # Resume, education, and knowledge page content
 │       ├── styles/
@@ -47,11 +50,11 @@ All page HTML lives in `frontend/src/pages/`:
 └── README.md
 ```
 
-This is a plain HTML, CSS, and JavaScript frontend. It does not require React, Vite, a package manager, or a build step. All seven page HTML files live in `frontend/src/pages/`, alongside the page-rendering scripts. They load the shared components, page functions, and then `frontend/src/main.js` using deferred scripts. Navigation links are between sibling HTML files; stylesheet and script paths are relative to the pages folder. Image and document links use `../../public/`.
+This is a plain HTML, CSS, and JavaScript frontend. It does not require React, Vite, a package manager, or a build step. All page HTML files live in `frontend/src/pages/`, alongside the page-rendering scripts. They load the shared components, page functions, and then `frontend/src/main.js` using deferred scripts. Navigation links are between sibling HTML files; stylesheet and script paths are relative to the pages folder. Image and document links use `../../public/`.
 
 The root `index.html` only redirects visitors to `frontend/src/pages/index.html` so GitHub Pages still opens the homepage. The JavaScript redirect preserves query parameters and fragment anchors; a meta refresh and clickable link provide fallbacks. Other pages are now addressed as `frontend/src/pages/about.html`, `frontend/src/pages/resume.html`, and so on.
 
-Project cover artwork is illustrative, not a visualization of source data. Creative categories intentionally have no invented work. Add API services or React hooks only if the site eventually needs those features.
+Project cover artwork is illustrative, not a visualization of source data. Fiction pages preserve the supplied manuscripts; AI short films is empty. The root `self_portrait.png` supplies the homepage portrait and site marks. Add API services or React hooks only if the site eventually needs those features.
 
 ## Update the resume
 
